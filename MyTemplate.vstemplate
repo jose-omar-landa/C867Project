@@ -1,0 +1,27 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>C867Project</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>C867Project</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="JLandaClassRosterC867.vcxproj" File="JLandaClassRosterC867.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">JLandaClassRosterC867.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="roster.cpp">roster.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="student.cpp">student.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="degree.h">degree.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="roster.h">roster.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="student.h">student.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
